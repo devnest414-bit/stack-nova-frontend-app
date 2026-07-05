@@ -2,9 +2,9 @@ import axios from 'axios';
 
 export const API_ORIGIN = import.meta.env.VITE_API_URL;
 // export const API_ORIGIN = "http://localhost:5000";
-
+ 
 const api = axios.create({
-  baseURL: `${API_ORIGIN}/api`,
+  baseURL: `${import.meta.env.VITE_API_URL}/api`,
   withCredentials: true, // sends the httpOnly JWT cookie automatically
 });
 
