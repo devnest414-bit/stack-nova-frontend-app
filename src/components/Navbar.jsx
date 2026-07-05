@@ -6,7 +6,7 @@ import { resolveAvatarUrl } from '../api/axios';
 import logo from '../image/logo.png'
 
 const links = [
-  { to: '/', label: 'Homes' },
+  { to: '/', label: 'Home' },
   { to: '/about', label: 'About' },
   { to: '/benefits', label: 'Benefits' },
   { to: '/blog', label: 'Blog' },
